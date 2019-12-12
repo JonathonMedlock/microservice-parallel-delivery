@@ -7,6 +7,8 @@ the lambda. When deploying stacks, the governor (event mediator that records all
 be deployed first. The name of the governor is used when deploying the other microservices that are utilizing the event delivery system 
 associated with that governor.
 
+The templates in this project are currently configured to be utilized via the AWS console or cli.
+
 The SQS for the project is set up to use long polling at an interval of 20 seconds. This is mostly to cut down on empty receives and
 avoid bloat in the number of poll requests made by multiple queues.
 
