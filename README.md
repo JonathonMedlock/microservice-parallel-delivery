@@ -1,5 +1,6 @@
 # microservice-parallel-delivery
-Project for demonstrating an implementation of the event-driven architecture pattern. Contains a mediator service and an individual event processor. Project is both very bare-bones and not optimized, and is simply intended as an example.
+Project for demonstrating an implementation of the event-driven architecture pattern. Contains a mediator service and an individual event 
+processor. Project is both very bare-bones and not optimized, and is simply intended as an example.
 
 The current governor receives all SNS messages into an SQS, checks its database to see if the sender is trusted, then if it is, stores the 
 message and broadcasts the an approved message to the SNS to be picked up by the clients. The current client receives SNS messages into an 
