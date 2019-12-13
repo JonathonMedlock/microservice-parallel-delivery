@@ -35,5 +35,7 @@ Client 2: http://ms-cli-2-web-access.s3-website.us-east-2.amazonaws.com
 
 Client 3: http://ms-cli-3-web-access.s3-website.us-east-2.amazonaws.com
 
+Client 4: http://ms-cli-4-web-access.s3-website.us-east-2.amazonaws.com
+
 
 These governor and clients each have information on the messages that can be sent and received by each.
