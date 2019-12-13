@@ -28,8 +28,12 @@ The project is currently deployed on my AWS account and the front end can be rea
 separated from the others).
 
 Governor: http://gov-web-access.s3-website.us-east-2.amazonaws.com
+
 Client 1: http://ms-cli-1-web-access.s3-website.us-east-2.amazonaws.com
+
 Client 2: http://ms-cli-2-web-access.s3-website.us-east-2.amazonaws.com
+
 Client 3: http://ms-cli-3-web-access.s3-website.us-east-2.amazonaws.com
+
 
 These governor and clients each have information on the messages that can be sent and received by each.
