@@ -148,7 +148,7 @@
                     "S3Bucket": "simple-ms-messenger-lambda-functions",
                     "S3Key": "client-processor.zip"
                 },
-                "Runtime": "nodejs8.10",
+                "Runtime": "nodejs12.x",
                 "Timeout": 25,
 				"Environment": {
 					"Variables": {
@@ -341,7 +341,7 @@
                     "S3Bucket": "simple-ms-messenger-lambda-functions",
                     "S3Key": "client-getMessages.zip"
                 },
-                "Runtime": "nodejs8.10",
+                "Runtime": "nodejs12.x",
                 "Timeout": 25,
 				"Environment": {
 					"Variables": {
@@ -403,7 +403,7 @@
                     "S3Bucket": "simple-ms-messenger-lambda-functions",
                     "S3Key": "client-postMessage.zip"
                 },
-                "Runtime": "nodejs8.10",
+                "Runtime": "nodejs12.x",
                 "Timeout": 25,
 				"Environment": {
 					"Variables": {
