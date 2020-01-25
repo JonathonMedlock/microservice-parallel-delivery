@@ -151,7 +151,7 @@
                     "S3Bucket": "simple-ms-messenger-lambda-functions",
                     "S3Key": "governor-processor.zip"
                 },
-                "Runtime": "nodejs8.10",
+                "Runtime": "nodejs12.x",
                 "Timeout": 25,
 				"Environment": {
 					"Variables": {
@@ -318,7 +318,7 @@
                     "S3Bucket": "simple-ms-messenger-lambda-functions",
                     "S3Key": "governor-getMessages.zip"
                 },
-                "Runtime": "nodejs8.10",
+                "Runtime": "nodejs12.x",
                 "Timeout": 25,
 				"Environment": {
 					"Variables": {
